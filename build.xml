@@ -13,7 +13,6 @@
     <Configuration Condition="$(Configuration) == ''">Test</Configuration>
     <PublishProfile Condition="$(PublishProfile) == ''">Test</PublishProfile>
     <OutputDir>.out</OutputDir>
-    <NUnitConsole>packages\NUnit.Console.3.0.1\tools\nunit3-console.exe</NUnitConsole>
   </PropertyGroup>
 
   <ItemGroup>
