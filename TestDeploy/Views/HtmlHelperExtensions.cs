@@ -32,10 +32,10 @@ namespace TestDeploy.Views
                 response = version.ToString();
                 Assembly assembly = Assembly.GetExecutingAssembly();
                 object[] attributes = assembly.GetCustomAttributes(true);
-                var config = attributes.OfType<AssemblyConfigurationAttribute>().FirstOrDefault();
+                var config = attributes.OfType<AssemblyDescriptionAttribute>().FirstOrDefault();
                 if (config != null)
                 {
-                    response = response +" "+ config.Configuration;
+                    response = response + " " + config.Description;
                 }
                 return MvcHtmlString.Create(response);
             }
