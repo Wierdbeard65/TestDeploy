@@ -128,6 +128,7 @@
     <Compile Include="Models\TestDeployContext.cs" />
     <Compile Include="Models\Thing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\HtmlHelperExtensions.cs" />
     <None Include="Properties\AssemblyInfo.Template.cs" />
   </ItemGroup>
   <ItemGroup>
