@@ -126,6 +126,7 @@
       <DependentUpon>201601030454092_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AnotherThing.cs" />
     <Compile Include="Models\TestDeployContext.cs" />
     <Compile Include="Models\Thing.cs" />
     <Compile Include="Models\Thing2.cs" />
