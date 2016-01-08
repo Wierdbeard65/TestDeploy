@@ -7,7 +7,7 @@ namespace TestDeploy.Models
 {
     public class AnotherThing
     {
-        int AnothetThingId { get; set; }
+        int AnotherThingId { get; set; }
         string Name { get; set; }
     }
 }
